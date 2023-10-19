@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.classtop {
+    background-color: #3b0000;
+  height: 40px;
+  width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.link a {
+   
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+
+}
+.link {
+   margin-top: 10px;
+  
+   
+    
+}
+
+.head2 {
+    display: flex;
+    
+    background-color: #862633;
+    min-height: 130px;
+    min-width: 100%;
+    justify-content: center;
+}
+
+
+
+.toplogo {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+   
+
+}
+
+.ulmlogo {
+    
+    background-image: url(ulmimage/ulmlogo.png);
+    background-size: cover;
+    height: 118px;
+    width: 118px;
+    
+    margin-top: 7px;
+    margin-left: 380px;
+
+    
+}
+
+.minibar a{
+    
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+.input {
+    background-color: #440000;
+    
+    margin-top: 15px;
+    
+    
+}
+
+.searchbar {
+    padding-left: 130px;
+}
+
+
+
+.button {
+    
+    color: #440000;
+    margin-top: 15px;
+    
+    font-size: 0.9rem;
+}
+
+.minibar {
+    display: flex;
+    
+    /* padding-left: 20px;
+    margin-left: 20px; */
+    font-size: 0.9rem;
+
+}
+
+.input {
+    padding-left: 30px;
+}
+
+button {
+    background-color: #440000;
+}
+
+
+
+
+.searchme {
+    background-color: #440000;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.thirdpannel {
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    height: 35px;
+    
+    
+    
+}
+.apply {
+    
+    margin-top: 6px;
+}
+
+
+.last {
+    margin-right: 30px;
+}
+
+.apply a {
+    color: #862633;
+    text-decoration: none;
+    padding: 0px 5px 0px 50px;
+    margin-top: 20px;
+}
+
+
+.hero  {
+    margin-top: 10px;
+    height: 425px;
+    
+    background-image: url(ulmimage/hero.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.virtual {
+    height: 100px;
+    
+   
+    margin-left: 200px;
+    margin-top: 30px;
+    background-image: url(ulmimage/virtual.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.headlines {
+    
+    margin-top: 30px;
+    height: 362px;
+    width: 100%;
+  
+    background-color:#eeeeee;
+    
+
+
+}
+
+.headline1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 27px;
+
+}
+
+.news, .the {
+    
+    color: #646469;
+    justify-content: flex-start;
+}
+
+.headline2 {
+    display: flex;
+    
+    height: 203px;
+    margin: 25px;
+    margin-left: 94px;
+    margin-right: 94px;
+    justify-content: space-between;
+}
+
+.emission {
+    display: flex;
+    
+    height: 203px;
+    width: 31%;
+    background-image: url(ulmimage/emission.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.fallbreak {
+    display: flex;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-image: url(ulmimage/fallbreak.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 203px;
+    width: 31%;
+}
+.museum {
+    display: flex;
+    background-image: url(ulmimage/musuem.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 203px;
+    width: 31%;
+}
+
+.emission a {
+    color: #646469;
+    text-decoration: none;
+    font-size: 17.6px;
+    text-align: center;
+    margin-top: 208px;
+    
+}
+.fallbreak a {
+    color: #646469;
+    text-decoration: none;
+    font-size: 17.6px;
+    text-align: center;
+    margin-top: 208px;
+}
+.museum a {
+    color: #646469;
+    text-decoration: none;
+    font-size: 17.6px;
+    text-align: center;
+    margin-top: 208px;
+}
+
+.date {
+
+    margin-top: 40px;
+    height: 204px;
+    background-color: #eeeeee;
+}
+
+.margingap {
+
+    margin: 0px 95px 0px 95px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.women{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    height: 190px;
+    
+    width: 20%;
+}
+.grad{
+    height: 190px;
+    padding-left: 10px;
+    width: 20%;
+}
+.free{
+    height: 190px;
+    padding-left: 10px;
+    width: 20%;
+}
+.football{
+    height: 190px;
+    padding-left: 10px;
+    width: 20%;
+}
+
+
+.oct18 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 64px;
+    width: 70px;
+    border: 1px solid #555;
+    border-top: 8px solid #555;
+    background-color: white;
+    
+}
+
+.oct {
+    
+    justify-content: center;
+}
+
+.fly {
+    padding-top: 7px;
+    margin-right: 40px;
+}
+
+.foot2 {
+    height: 5px;
+    background-color: orangered;
+}
+
+.foot1 {
+    
+    width: 100%;
+    height: 230px;
+    background-color: #585858
+
+
+}
+
+.footbox{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.undergraduate {
+    
+    height: 200px;
+    width: 18%;
+    text-align: right;
+}
+.footlogo {
+    
+   
+    height: 200px;
+    width: 18%;
+    
+}
+.logofoot {
+    
+    height: 120px;
+    width: 100%;
+    background-image: url(ulmimage/footerimage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titleix {
+    
+    height: 200px;
+    width: 18%;
+}
+.university {
+    
+    height: 200px;
+    width: 18%;
+}
+.student {
+    text-align: right;
+    height: 200px;
+    width: 18%;
+}
+
+.para a{
+    color: white;
+    text-decoration: none;
+    font-size: 11.2px;
+    
+}
+
+.line {
+    height: 1.5px;
+    background-color: orangered;
+}
+
+.aaa {
+    height: 68px;
+    width: 100%;
+    background-color: #585858;
+}
+
+.lastfooter {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.social {
+    height: 100%;
+   display: flex;
+}
+
+.facebook    {
+    padding: 5px 25px 0px 0px;
+    font-size: 35px;
+}
+.youtube   {
+    padding: 5px 25px 0px 0px;
+    font-size: 35px;
+    
+}
+.twitter   {
+    padding: 5px 25px 0px 0px;
+    font-size: 35px;
+}
+
+.youtube a {
+    color: red;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+}
+
+.feature {
+    margin-top: 20px;
+    height: 240px;
+    
+    width: 100%;
+}
+
+.ulms {
+    display: flex;
+    height: 240px;
+    
+    margin: 0px 150px 0px 150px;
+}
+
+.first {
+    
+    height: 240px;
+    width: 34%;
+    margin-right: 20px;
+}
+.second {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    height: 240px;
+    width: 33%;
+    margin-right: 20px;
+}
+.third {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    height: 240px;
+    width: 33%;
+    background-image: url(ulmimage/feature.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pho {
+    color: white;
+    font-weight: 700;
+}
+
+.athletics{
+    background-image: url(ulmimage/athletics.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 116px;
+    width: 148px;
+    margin: 40px 20px 60px 0px;
+
+}
+.gift{
+    background-image: url(ulmimage/gift.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 116px;
+    width: 148px;
+    margin: 40px 20px 60px 0px;
+
+}
+
+
+.first ul li {
+    color:#440000
+    /* text-decoration: none;
+    list-style-type: none;
+    margin-top 15px; */
+}
+
+.first ul li a {
+    color:#440000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
